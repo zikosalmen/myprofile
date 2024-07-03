@@ -1,0 +1,407 @@
+/* formulaire */
+
+#navf{
+    margin-left: 30%;
+    border:solid 1px white ;
+    border-radius: 20px;
+    height: 70px;
+    color: #ffffff;
+}
+legend{
+    color: white;
+}
+.h2f{
+    color: white;
+}
+
+iframe{
+    height: 100vh;
+    width: 100%;
+    display: calc()
+}
+
+#bdform{
+    text-decoration: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(#10002f,#ececec);
+    background-size: 100% 100vh;
+    font-size: 19px;
+}
+select{
+    margin-left: 30%;
+    background-color:white ;
+    
+}
+#hedf{
+    border: solid 1px;
+padding: 2px;
+}
+#con{
+    position: absolute;
+    left: 85%;
+    color: white;
+}
+
+.btf{
+    font-size: 19px;
+}
+#lbt{
+    padding-right: 5%;
+}
+
+#ffm{
+    padding: 2%;
+    width: 40%;
+    margin-left: 30%;
+    height: 80vh;
+    background-color:#b8b7d6;
+    filter: blur();
+    border-radius: 20px;
+
+
+}
+label{
+    margin: 10%;
+}
+
+
+/* principale */
+.np{
+    display: flex;
+    height: 14vh;
+    border-radius: 15px;
+}
+.h2{
+    color: white;
+    width: 400%;
+    height: 10vh;
+
+}
+
+
+@keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50% {transform: rotate(0deg);left:390px;}
+55% {transform: rotate(0deg);left:390px;}
+70% {transform: rotate(0deg);left:390px;background:#66158c;color: white;}
+100% {transform: rotate(-360deg);left:0px;}
+}
+
+@-webkit-keyframes animated_div
+{
+0% {-webkit-transform: rotate(0deg);left:0px;}
+25% {-webkit-transform: rotate(20deg);left:0px;}
+50% {-webkit-transform: rotate(0deg);left:500px;}
+55% {-webkit-transform: rotate(0deg);left:500px;}
+70% {-webkit-transform: rotate(0deg);left:500px;background:#4ec4d8;}
+100% {-webkit-transform: rotate(-360deg);left:0px;}
+}
+
+@-moz-keyframes animated_div
+{
+0%  {-moz-transform: rotate(0deg);left:0px;}
+25% {-moz-transform: rotate(20deg);left:0px;}
+50%  {-moz-transform: rotate(0deg);left:500px;}
+55%  {-moz-transform: rotate(0deg);left:500px;}
+70%  {-moz-transform: rotate(0deg);left:500px;background:#4ec4d8;}
+100% {-moz-transform: rotate(-360deg);left:0px;}
+}
+
+@-o-keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50%  {transform: rotate(0deg);left:500px;}
+55%  {transform: rotate(0deg);left:500px;}
+70%  {transform: rotate(0deg);left:500px;background:#4ec4d8;}
+100% {transform: rotate(-360deg);left:0px;}
+}
+
+#bys{
+    width:150px;
+    height:30px;
+    background: #f0f0f0;
+    color: #311e70;
+    position: relative;
+    font-weight:bold;
+    font-size:20px;
+    padding:10px;
+    animation:animated_div 5s 999;
+    -moz-animation:animated_div 5s 999;
+    -webkit-animation:animated_div 5s 999;
+    -o-animation:animated_div 5s 999;
+    border-radius:5px;
+    -webkit-border-radius:5px;}
+
+
+.linkp{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 90%;
+    top: 5%;
+}
+.bdp{
+    background: linear-gradient(#10002f,#ffffff);
+}
+.arp{
+    border:  solid  0.5px ;
+    border-radius: 20px;
+    
+    color: #ffffff;
+}
+#ft{
+    
+    border-radius: 15px;
+    display: flex;
+}
+#nvp{
+    height: 95vh;
+    width: 70%;
+    display: flex;
+    
+}
+#ff{
+    font-size: 60px;
+    color: white;
+}
+#nv{
+    margin-left: 140%;
+}
+.navo{
+    height: 120px;
+    width: 150px;
+    border: solid 1px;
+    border-radius: 50%;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transform: scale();
+    
+}
+#sec{
+    padding-left: 50%;
+    display: flex;
+}
+#hh1{
+    padding-top: 10%;
+
+}
+.navo:hover{
+    background-color: white;
+    height: 130px;
+    width: 180px;
+
+}
+.hh{
+    padding-top: 15%;
+}
+#hp{
+    width: 180%;
+    font-size: xx-large;
+}
+#artp{
+    padding-top: 10%;
+    padding-left: 15%;
+
+    
+}
+.link{
+    block-size: auto;
+    display: flex;
+    border: solid 1px;
+    border-radius: 20px;
+    margin-left: 20%;
+    height: 50px;
+    width: 110px;
+}
+.link:hover{
+    background-color: white;
+}
+.imp{
+    margin-top: 18%;
+    height: 20px;
+    width: 30px;
+    top: 5px;
+    
+}
+
+#me{
+    padding-left: 10%;
+    height: 600px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+/* me */
+
+#bdme{
+    background-color: #50bbc4;
+    display: flex;
+}
+
+#nvme{
+    height: 100vh;
+    width: 29%;
+
+}
+#artme{
+    height: 100vh;
+    width: 69%;
+}
+
+
+/** hobbies **/
+
+#arth{
+    display: flex;
+}
+
+#nvh{
+    height: 90vh;
+    width: 15%;
+    padding-left: 20px;
+}
+#ifh{
+    height: 90%vh;
+    width: 90%;
+}
+
+.h2h{
+    transition-duration: 1s;
+    border: solid black 1px;
+    border-radius: 50%;
+    margin-top: 100px;
+    height: 90px;
+    width: 150px;
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.h2h:hover{
+    background-color: #ececec;
+    height: 100px;
+    width: 180px;
+
+}
+
+#navh{
+    display: flex;
+}
+
+.imgh{
+    height: 90vh;
+    width: 90%;
+    margin-left: 80px;
+}
+
+.h3h{
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 5px;
+    color: rgb(232, 207, 207);
+    font-size: x-large;
+}
+.imgf{
+    height: 90vh;
+    width: 90%;
+    margin-left: 40px;
+}
+
+
+/** nvs **/
+#nvs{
+    height: 85vh;
+    width: 100%;
+}
+.ext{
+    margin-top: 25px;
+    border: solid 0.5px rgb(0, 0, 0);
+    border-radius: 50px;
+    height: 15px;
+    width: 300px;
+}
+
+.ftn{
+    display: flex;
+}
+#int1{
+    height: 10px;
+    width:204px;
+    background-color: blue;
+    margin-top: 2px;
+    border-radius: 50px;
+
+}
+#int2{
+    height: 10px;
+    width: 246px;
+    background-color: blue;
+    margin-top: 2px;
+    border-radius: 50px;
+
+}
+
+#int3{
+    height: 10px;
+    width: 273px;
+    background-color: blue;
+    margin-top: 2px;
+    border-radius: 50px;
+
+}
+
+#int4{
+    height: 10px;
+    width: 234px;
+    background-color: blue;
+    margin-top: 2px;
+    border-radius: 50px;
+
+}
+
+#int5{
+    height: 10px;
+    width: 60px;
+    background-color: blue;
+    margin-top: 2px;
+    border-radius: 50px;
+
+}
+
+#int6{
+    height: 10px;
+    width: 297px;
+    background-color: blue;
+    margin-top: 2px;
+    border-radius: 50px;
+
+}
+#h2n{
+    color: white;
+}
+#bd{
+    background: linear-gradient(#10002f,#ffffff); 
+    height: 110vh;
+    
+}
+/***photo  **/
+#pht{
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

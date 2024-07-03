@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="so.css">
+    <script src="jo.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+</head>
+<body class="bdp">
+    <header class="np">
+        <article>
+        <h2 class="h2"><p id="bys">by salmen zekri</p></h2>
+    </article>
+
+    <nav id="navf"><a href="index.htm"> <h2 class="h2f">page principale</h2></a></nav>
+
+    <a href="formulaire.htm" class="linkp"><article class="arp">contactez_nous</article></a>
+    </header>
+    <hr>
+
+
+    <fieldset id="ffm">
+        <legend>Hello!</legend>
+        <form action="https://formsubmit.co/salmenzekri5@gmail.com" method="POST">
+        <label class="labf">nom:     <input placeholder="nom" name="name" type="text" id="fn"></label><br><br><br>
+
+        <label class="labf">prenom:  <input placeholder="prenom" name="prenom" type="text" id="fp"></label><br><br><br>
+
+        <label class="labf">adresse:  <input type="text" placeholder="email" name="adresse" id="fad"></label><br><br><br>
+
+        <label class="labf"> votre region: </label><br><select id="sel1" name="region">
+            <option id="op1">choisir votre region</option>
+            <option>sfax</option>
+            <option>tunis</option>
+            <option>jendouba</option>
+            <option>bouselem</option>
+            <option>sousse</option>
+        </select>
+        <br><br><br>
+        <label class="labf">sexe:</label><br><br>
+
+        <label  ><label  class="labf">homme:</label><input type="radio" checked name="homme">
+        <label  class="labf" >femme:</label><input type="radio" name="femme"><br><br></label>
+
+        <label class="labf">votre numero:<input id="fnum" placeholder="votre numero" name="num"  type="text"></label><br><br><br>
+        <label>votre commentaire:</label><center><textarea name="texte"></textarea><br><br><br></center>
+
+        <center><label  id="lbt"><input type="reset" class="btf" value="annuler" > 
+            <input type="submit" onclick="glob()" class="btf" value="envoyer"></label></center>
+
+
+    </form>
+</fieldset>
+    
+</body>
+</html>
